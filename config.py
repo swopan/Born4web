@@ -31,11 +31,11 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://gguhgggh440:Batala123@swopan.ski9cxk.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "Swopan")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantearn.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "85738b1e5dc3dc11333d57b84db5200978d82ec7")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "upshrink.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "7bbaaaf5d9df0589d66e1c4747f40ba760d17845")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","isaimini_updates")
+TUT_VID = os.environ.get("TUT_VID","backup9910/16")
 
 
 #force sub channel id, if you want enable force sub
