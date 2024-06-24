@@ -1,13 +1,13 @@
 # --- For-Bot-Working --------- #
-git+https://github.com/KurimuzonAkuma/pyrogram
+pyrofork
 TgCrypto
-pyromod
+pyromod==1.5
 # --- For-Database ------------ #
 pymongo
 motor
 umongo
-dnspython
 marshmallow
+dnspython
 # --- For-Web-Response ------- #
 pytz
 requests
