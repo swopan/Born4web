@@ -10,19 +10,19 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7003111532:AAEekL0Cd3bZIARaFHW0Yiy5K3x5OSEpVr4")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7386108148:AAEhQiKi2g3-L8yDAya3QfJ5HjYpc_umuwc")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "22617060"))
+APP_ID = int(os.environ.get("APP_ID", "23873858"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "45b14a109df38f6d103f0aacc2d3ea6d")
+API_HASH = os.environ.get("API_HASH", "bfc7ff263795b22bb7065abe95bed3a2")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002180181134"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002157136929"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6211363538"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7277357700"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -31,23 +31,23 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://swopande:Batala123@cluster0.bnp4vwy.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "upshrink.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "455fbdb800c013ddec4027ab873446ccd5bdef5b")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "inshorturl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "d085b925c2b0bafde56a5729a018f45655ad9602")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","tutorialimks/6")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/sux_Preview/15")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002222485531"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002181109962"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hii.  I am Alive.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6211363538").split()):
+    for x in (os.environ.get("ADMINS", "7277357700, 7208538115").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -68,7 +68,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1392566136)
+ADMINS.append(7277357700)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
