@@ -25,13 +25,13 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002147039566"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "6314089978"))
 
 #Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8086")
 
 #Database 
 DB_URI = "mongodb+srv://sunitverma080:eh0fYGutTA72cGrs@blaze.zwyit.mongodb.net/?retryWrites=true&w=majority&appName=Blaze"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "kingurl.in")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "6ba0e767f68f598eea5005bad2d2ba2166593174")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
